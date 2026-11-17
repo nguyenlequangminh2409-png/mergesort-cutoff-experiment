@@ -1,0 +1,6 @@
+PASS: two sessions each have 24 datasets x 12 cutoffs x 7 rounds; no missing or duplicate rows.
+Student source, 24 dataset SHA-256 hashes, 43,230-case check logs, and completion logs verified.
+Spikes over 2x own dataset/cutoff median: 19 and 47 / 2016.
+k=10 vs 7 by dataset medians: -0.45% and -2.14%.
+k=10 vs 7 by per-round pairing (sensitivity check): +2.36% and -0.82%.
+The different summary signs in run 1 and the between-run timing drift preclude a precise optimum claim.

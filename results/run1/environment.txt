@@ -1,0 +1,10 @@
+﻿date_local=2026-11-17 22:27:47 +07:00
+os=Microsoft Windows NT 10.0.26200.0
+cpu=Intel(R) Core(TM) 5 120U
+rounds=7
+cutoffs=0,4,6,7,8,9,10,11,12,14,16,20
+source_sha256=A207041F742F4629A1209D63BBA0DDD3ADDC49493D1E9A3E5A0C059F02F0DA5D
+java_version=java version "25.0.2" 2026-01-20 LTS
+Java(TM) SE Runtime Environment (build 25.0.2+10-LTS-69)
+Java HotSpot(TM) 64-Bit Server VM (build 25.0.2+10-LTS-69, mixed mode, sharing)
+javac_version=javac 25.0.2
