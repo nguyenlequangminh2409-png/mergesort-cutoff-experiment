@@ -1,6 +1,6 @@
-# Thí nghiệm cutoff của Mergesort — bản rà soát trước khi nộp
+# Thí nghiệm cutoff trong MergeSort
 
-Sinh viên: **Nguyễn Lê Quang Minh — 25021877**. Báo cáo: [report/Bao_cao_cutoff_25021877_DRAFT.docx](report/Bao_cao_cutoff_25021877_DRAFT.docx).
+Sinh viên: **Nguyễn Lê Quang Minh — 25021877**. Báo cáo: [report/Bao_cao_cutoff_25021877.docx](report/Bao_cao_cutoff_25021877.docx).
 
 Mục tiêu là khảo sát thời điểm chuyển từ mergesort sang insertion sort trên các đoạn nhỏ. `src/StudentMergeSort.java` là đúng bản mã đã chạy trong cả hai phiên, có SHA-256 `A207041F742F4629A1209D63BBA0DDD3ADDC49493D1E9A3E5A0C059F02F0DA5D`. Chú thích đầu tệp nói các thân hàm “để trống” là chú thích cũ từ khung bài tập; các hàm thực tế đã được điền. Giữ nguyên byte của tệp để đối chiếu với log đo.
 
@@ -11,6 +11,8 @@ Mục tiêu là khảo sát thời điểm chuyển từ mergesort sang insertio
 - Chỉ số chính: lấy trung vị 7 vòng cho từng bộ/cutoff, sau đó lấy trung bình nhân của `median(k=7) / median(k)` trên 24 bộ. Theo chỉ số này, k=7 đứng đầu cả hai phiên; k=10 thấp hơn 0,45% và 2,14%. Đây là lựa chọn thực dụng cho máy và bộ dữ liệu đã đo; sự dao động thời gian chưa cho phép khẳng định một ngưỡng tối ưu phổ quát.
 
 Chi tiết và giới hạn ở báo cáo. Bản ghi gốc không bị làm sạch hoặc bỏ mẫu ngoại lệ.
+
+![Đồ thị kết quả hai phiên](analysis/cutoff_two_runs.png)
 
 ## Cấu trúc
 
